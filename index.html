@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./ctyle.css">
+</head>
+<body>
+    <div class="wrapper">
+            <header class="nav-menu">
+                 <img class="img-logo" src="./img/Asset 1@3x 1.svg" alt="bank">
+                <ul class="list-menu">
+                    <li><a class="text-1" href="https://online.sberbank.ru/CSAFront/index.do#/" target="_blank" >Банк</a></li>
+                    <li><a class="text-2" href="https://www.sberbank.ru/ru/s_m_business/new_sbbol" target="_blank">Бизнес</a></li>
+                    <li><a class="text-3" href="https://invest.yandex.ru/onboarding/" target="_blank">Инвестиции</a></li>
+                    <li><a class="text-4" href="https://www.reso.ru/" target="_blank">Страхование</a></li>
+                    <li><a class="text-5" href="https://moskva.mts.ru/personal" target="_blank">Мобайл</a></li>
+                    <li><a class="text-6" href="https://www.coral.ru/" target="_blank">Путешествия</a></li>
+                    <li><a class="text-7" href="https://kudago.com/msk/entertainment/" target="_blank">Развлечения</a></li>
+                </ul>
+                 <button id="btn">Войти</button>
+            </header>
+            <h1>Конвертер валют онлайн</h1>
+    <main class="mains">
+     <div class="flexes">
+         <div class="location1">
+        <p>У меня есть</p>
+        <div class="loc1">
+            <button  class="button-left-value active" id="button-left-RUB">RUB</button>
+            <button class="button-left-value" id="button-left-USD">USD</button>
+            <button class="button-left-value" id="button-left-EUR">EUR</button>
+            <button class="button-left-value" id="button-left-GBP">GBP</button>
+            <select class="select-left" id="select-left">
+            </select>
+        </div>
+        <input class="input-textt" type="number" name="text" id="input-text-left" value="1">
+        <img class="arrow" src="./img/Group 5.svg" alt="arrow">
+         <p class="paragraf-left"></p>
+         </div>
+         <div class="location2">
+              <p >Хочу приобрести</p>
+        <div class="loc2">
+       <button class="button-right-value" id="button-right-RUB">RUB</button>
+       <button class="button-right-value active" id="button-right-USD">USD</button>
+       <button class="button-right-value" id="button-right-EUR">EUR</button>
+       <button class="button-right-value" id="button-right-GBP">GBP</button>
+       <select class="select-right" id="select-right">
+       </select>
+          </div>
+          <input class="input-text" type="number" name="text" id="input-text-right" >
+          <p class="paragraf-right">313</p>
+        </div>
+     </div>
+    </main>
+ </div>
+    <script src="./script.js"></script>
+</body>
+</html>
