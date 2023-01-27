@@ -9,6 +9,7 @@
 
 .wrapper {
     height: 100%;
+    /* display: flex; */
 }
 
 .nav-menu {
@@ -16,6 +17,13 @@
  justify-content: space-around;
  background: #F5F5F6;
 }
+
+.flexes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .img-logo {
     width: 89px;
